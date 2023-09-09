@@ -1,0 +1,16 @@
+{
+  "name": "pubmed",
+  "version": "1.0.0",
+  "description": "Retrevies RSS data from pubmed an feeds stories of interest to users",
+  "main": "main.js",
+  "scripts": {
+    "collect": "npm --prefix ./rss_collect run server",
+    "test": "test"
+  },
+  "author": "Biedermann",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.13.20",
+    "rss-parser": "^3.13.0"
+  }
+}
